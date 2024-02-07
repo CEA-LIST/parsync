@@ -13,9 +13,6 @@ description = "Recursively copy missing files to a directory"
 readme = "README.md"
 license = { text = "CECILL-C" }
 
-[project.optional-dependencies]
-tests = ["pytest"]
-
 [project.scripts]
 parsync = "parsync:main"
 
