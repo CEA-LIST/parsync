@@ -67,7 +67,7 @@ def parse_args():
         "-p",
         type=int,
         default=10,
-        help="maximum number of concurrent copies",
+        help="maximum number of concurrent copies (default: 10)",
     )
     argparser.add_argument(
         "--filter", "-f", nargs="*", default=[], help="pattern to filter source files"
