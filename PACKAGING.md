@@ -6,7 +6,7 @@
 ```
 dnf install python3-devel rpmdevtools
 ```
-2. Edit rpm/spec and set *python3_pkgversion* to your system python version (`python3 -V`).
+2. Edit the packaging/rpm/spec file and set *python3_pkgversion* to your system python version (`python3 -V`).
 3. Update the *Version* and *Release* fields if necessary.
 4. Build the package (update versions accordingly):
 ```sh
